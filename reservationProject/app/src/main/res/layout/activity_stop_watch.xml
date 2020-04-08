@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StopWatch"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stop_watch_time"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="00:00:00:00"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/stop_watch_start"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#03A9F4"
+            android:text="시작"
+            tools:ignore="HardcodedText,UnusedAttribute"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/stop_watch_restart"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#03A9F4"
+            android:text="일시정지"
+            tools:ignore="HardcodedText,UnusedAttribute"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/stop_watch_initialize"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#03A9F4"
+            tools:ignore="HardcodedText,UnusedAttribute"
+            android:text="초기화"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

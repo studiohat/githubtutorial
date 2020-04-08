@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/bookmark"
+        android:background="@android:color/transparent"
+        android:id="@+id/bookmark"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/activity_title"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"/>
+
+</LinearLayout>

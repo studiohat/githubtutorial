@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="아이디 찾기"
+        android:textSize="20dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/emailInput1"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="E-mail"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:id="@+id/findId"/>
+
+    <Button
+        android:id="@+id/IDsearch"
+        android:layout_width="200sp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="아이디 찾기"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="비밀번호 찾기"
+        android:textSize="20dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        />
+
+    <EditText
+        android:id="@+id/emailInput2"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="E-mail"
+        android:layout_marginLeft="20dp" />
+
+
+    <EditText
+        android:id="@+id/idInput"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="8"
+        android:hint="ID"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:id="@+id/findpw"/>
+
+    <Button
+        android:id="@+id/Passwordsearch"
+        android:layout_width="200sp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="비밀번호 찾기"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/home1"
+        android:layout_width="200sp"
+        android:layout_height="40dp"
+        android:text="홈으로가기"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/freeBoard"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="자유 게시판"
+        />
+    <item
+        android:id="@+id/reportBoard"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="신고 게시판"
+        />
+    <item
+        android:id="@+id/noticeBoard"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="공지 게시판"
+        />
+
+</menu>
